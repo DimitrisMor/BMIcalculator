@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(132, 132, 255);
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container{
+    font-size: large;
+    position: absolute;
+    width: 380px;
+    height:280px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(161, 206, 212);
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#title{
+    text-align: center;
+}
+
+#ageSpan{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#gender{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#female{
+    margin-left: 15px;;
+}
+
+#heightSpan{
+    display: inline-block;
+    margin-left: 22px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#weightSpan{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#calculateButton{
+    width:120px;
+    margin-left: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#resetButton{
+    width: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#maleCheck, #femaleCheck{
+    cursor: pointer;
+}
+
+input[type=number]::placeholder{
+    color: red;
+    display: none;
+    left: 30px;
+}
+
+#text{
+    position:absolute;
+    left: 50%;
+    top:70%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: x-large;  
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
